@@ -6,7 +6,6 @@ const Navbar = () => {
   const navigate = useNavigate();
   const [items, setItems] = useState([]);
   const [final, setFinal] = useState([]);
-
   const searchUrl =
     "https://api.themoviedb.org/3/trending/movie/week?api_key=dbbabc4ba854dfe84597e635c79468d7";
 
@@ -108,8 +107,6 @@ const Navbar = () => {
             <li>Other Shows</li>
             <li>Hotstar Specials</li>
             <li>Star Plus</li>
-            <li>Star Vijay</li>
-            <li>Asianet</li>
           </ul>
         </li>
         <li className="nav-items nav-responsive dropdown-box">
@@ -123,12 +120,13 @@ const Navbar = () => {
             Movies
           </button>
           <ul className="dropdown-menu" aria-labelledby="">
+          <li>Telugu</li>
             <li>Hindi</li>
-            <li>Bengali</li>
-            <li>Telugu</li>
+            <li>English</li>
             <li>Malayalam</li>
             <li>Tamil</li>
             <li>Kannada</li>
+            <li>Korean</li>
           </ul>
         </li>
         <li className="nav-items nav-responsive dropdown-box">
@@ -145,8 +143,7 @@ const Navbar = () => {
             <li>Other Shows</li>
             <li>Hotstar Specials</li>
             <li>Star Plus</li>
-            <li>Star Vijay</li>
-            <li>Asianet</li>
+
           </ul>
         </li>
         <li className="nav-items nav-responsive dropdown-box">
@@ -157,14 +154,12 @@ const Navbar = () => {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Disney+
+            Disney+HotStar
           </button>
           <ul className="dropdown-menu" aria-labelledby="">
             <li>Other Shows</li>
             <li>Hotstar Specials</li>
             <li>Star Plus</li>
-            <li>Star Vijay</li>
-            <li>Asianet</li>
           </ul>
         </li>
       </ul>
@@ -182,7 +177,7 @@ const Navbar = () => {
 
         <button className="sub-btn">subscribe</button>
         <a href="/" className="login-link">
-          login
+          LOGIN
         </a>
       </div>
       <div className="search-results hidden">

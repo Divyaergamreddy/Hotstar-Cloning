@@ -70,7 +70,7 @@ const Trending = () => {
               <div className="card-body">
                 <h2 className="name">{item.title}</h2>
                 <h6 className="des">{item.overview.slice(0, 40)}...</h6>
-                <button className="watchlist-btn">+ Watchlist</button>
+                <button className="watchlist-btn">+ WatchList</button>
               </div>
             </div>
           ))}

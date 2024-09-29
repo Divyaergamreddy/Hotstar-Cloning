@@ -4,10 +4,10 @@ const Language = () => {
   const genres = [
     {
       id: 1,
-      elanguage: "odia",
-      language: "ଓଡ଼ିଆ",
+      elanguage: "Telugu",
+      language: "తెలుగు",
       image:
-        "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/5444/1265444-h-d76f7b771fe4",
+        "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1381/1121381-h-6c23f89e0ba2",
     },
     {
       id: 2,
@@ -18,66 +18,41 @@ const Language = () => {
     },
     {
       id: 3,
-      elanguage: "Bengali",
-      language: "বাংলা",
+      elanguage: "English",
+      language: "अंग्रेज़ी",
       image:
-        "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2156/1272156-h-069fc6816144",
+        "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2158/1272158-h-aa2d20facda2",
     },
+   
     {
       id: 4,
-      elanguage: "Telugu",
-      language: "తెలుగు",
-      image:
-        "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1381/1121381-h-6c23f89e0ba2",
-    },
-    {
-      id: 5,
       elanguage: "Malayalam",
       language: "മലയാളം",
       image:
         "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2159/1272159-h-54c3e895c74e",
     },
     {
-      id: 6,
+      id: 5,
       elanguage: "Tamil",
       language: "தமிழ்",
       image:
         "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2160/1272160-h-d078165f23bb",
     },
+   
+   
     {
-      id: 7,
-      elanguage: "Marathi",
-      language: "मराठी",
-      image:
-        "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2157/1272157-h-e0d5706adae2",
-    },
-    {
-      id: 8,
-      elanguage: "English",
-      language: "अंग्रेज़ी",
-      image:
-        "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2158/1272158-h-aa2d20facda2",
-    },
-    {
-      id: 9,
+      id: 6,
       elanguage: "Kannada",
       language: "ಕಂದ",
       image:
         "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/LANGUAGE/5711/5711/5711-h",
     },
     {
-      id: 10,
+      id: 7,
       elanguage: "Korean",
       language: "한국어",
       image:
         "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/7339/1307339-h-303abe8ea3d6",
-    },
-    {
-      id: 11,
-      elanguage: "Japanese",
-      language: "日本",
-      image:
-        "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/848/1330848-h-4ede10b7d754",
     },
   ];
   const list = [];
